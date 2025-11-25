@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-netwait"
-version = "0.1.0"
+version = "0.2.0"
 authors = [ "BGMA" ]
 description = "A Tauri plugin for network status monitoring and waiting."
 license = "MIT"

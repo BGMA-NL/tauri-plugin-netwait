@@ -15,7 +15,7 @@ pub fn init<R: Runtime, C: DeserializeOwned>(
   api: PluginApi<R, C>,
 ) -> crate::Result<Netwait<R>> {
   #[cfg(target_os = "android")]
-  let handle = api.register_android_plugin("nl.bgma.netwait", "NetwaitPlugin")?;
+  let handle = api.register_android_plugin("nl.bgma.netwait", "NetWaitPlugin")?;
   #[cfg(target_os = "ios")]
   let handle = api.register_ios_plugin(init_plugin_netwait)?;
   Ok(Netwait(handle))
