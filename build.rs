@@ -1,4 +1,4 @@
-const COMMANDS: &[&str] = &["wait_for_network"];
+const COMMANDS: &[&str] = &["check_network_status", "wait_for_network"];
 
 fn main() {
   tauri_plugin::Builder::new(COMMANDS)
