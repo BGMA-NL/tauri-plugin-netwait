@@ -18,6 +18,32 @@ Default permissions for the plugin
 <tr>
 <td>
 
+`netwait:allow-check-network-status`
+
+</td>
+<td>
+
+Enables the check_network_status command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`netwait:deny-check-network-status`
+
+</td>
+<td>
+
+Denies the check_network_status command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
 `netwait:allow-ping`
 
 </td>
