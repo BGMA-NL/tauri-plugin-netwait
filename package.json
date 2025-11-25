@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "BGMA",
   "description": "A Tauri plugin for network status monitoring and waiting.",
+  "license": "MIT",
   "type": "module",
   "types": "./dist-js/index.d.ts",
   "main": "./dist-js/index.cjs",
